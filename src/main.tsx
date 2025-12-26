@@ -1,11 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App'
 import './index.css'
-import App from './App.tsx'
 
-// Carga la aplicación React en el elemento con id 'root' en el DOM
-createRoot(document.getElementById('root')!).render(
+// Obtenemos el elemento root del DOM
+const rootElement = document.getElementById('root')
+if (!rootElement) throw new Error('Root element not found')
+
+// Creamos el root de React y renderizamos la app
+createRoot(rootElement).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
+    {/* BrowserRouter con basename para GitHub Pages */}
+    <BrowserRouter basename='/react-skills'>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
 )
