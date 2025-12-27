@@ -19,6 +19,12 @@ const Home = () => {
                 >
                     2. Contador de clics
                 </Link>
+                <Link
+                    to="/ReactSkills03"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    3. Lista de tareas con localStorage
+                </Link>
             </div>
         </div>
     );
