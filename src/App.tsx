@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import ReactSkills01 from './pages/ReactSkills01'
+import ReactSkills02 from './pages/ReactSkills02'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ReactSkills01" element={<ReactSkills01 />} />
+          <Route path="/ReactSkills02" element={<ReactSkills02 />} />
         </Routes>
       </div>
     </div>

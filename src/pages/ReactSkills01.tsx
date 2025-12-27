@@ -17,7 +17,7 @@ export default function Ejercicio1() {
             <div className="bg-white p-8 rounded-xl shadow-2xl text-center max-w-md">
                 <h2 className="text-3xl font-bold mb-4 text-gray-800">Ejercicio 1</h2>
                 <p className="mb-6 text-gray-600">
-                    Haz clic en el botón para cambiar el fondo de la página aleatoriamente.
+                    El botón azul cambia el color de fondo de la página aleatoriamente.
                 </p>
 
                 <div className="mb-6 font-mono text-lg bg-gray-100 p-2 rounded">

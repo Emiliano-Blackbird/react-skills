@@ -13,6 +13,12 @@ const Home = () => {
                 >
                     1. Selector de colores de fondo
                 </Link>
+                <Link
+                    to="/ReactSkills02"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    2. Contador de clics
+                </Link>
             </div>
         </div>
     );
