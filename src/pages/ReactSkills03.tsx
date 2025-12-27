@@ -39,7 +39,7 @@ export default function Ejercicio3(): JSX.Element {
     return (
         <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50">
             <div className="flex flex-col items-center gap-4 bg-white p-8 rounded-xl shadow-xl w-full max-w-md">
-                <h2 className="text-3xl font-bold text-gray-800">Ejercicio 3</h2>
+                <h2 className="text-3xl font-bold text-gray-800">Lista de tareas con localStorage</h2>
 
                 <label
                     htmlFor="task"

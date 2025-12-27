@@ -15,7 +15,7 @@ export default function Ejercicio1() {
             className="min-h-screen flex flex-col justify-center items-center transition-colors duration-500 ease-in-out"
         >
             <div className="bg-white p-8 rounded-xl shadow-2xl text-center max-w-md">
-                <h2 className="text-3xl font-bold mb-4 text-gray-800">Ejercicio 1</h2>
+                <h2 className="text-3xl font-bold mb-4 text-gray-800">Selector de colores de fondo</h2>
                 <p className="mb-6 text-gray-600">
                     El botón azul cambia el color de fondo de la página aleatoriamente.
                 </p>

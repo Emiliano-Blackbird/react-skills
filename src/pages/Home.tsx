@@ -25,6 +25,12 @@ const Home = () => {
                 >
                     3. Lista de tareas con localStorage
                 </Link>
+                <Link
+                    to="/ReactSkills04"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    4. Lista dinámica con filtro
+                </Link>
             </div>
         </div>
     );

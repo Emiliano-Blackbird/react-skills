@@ -13,7 +13,7 @@ const Ejercicio2: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50">
       <div className="flex flex-col gap-y-6 bg-white p-8 rounded-xl shadow-2xl text-center max-w-md mx-auto">
-        <h2 className="text-3xl font-bold text-gray-800">Ejercicio 2</h2>
+        <h2 className="text-3xl font-bold text-gray-800">Contador de clics</h2>
 
         <p className="text-gray-600">
           El siguiente botón cuenta la cantidad de veces que ha sido clickeado.

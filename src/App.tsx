@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import ReactSkills01 from './pages/ReactSkills01'
 import ReactSkills02 from './pages/ReactSkills02'
 import ReactSkills03 from './pages/ReactSkills03'
+import ReactSkills04 from './pages/ReactSkills04'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/ReactSkills01" element={<ReactSkills01 />} />
           <Route path="/ReactSkills02" element={<ReactSkills02 />} />
           <Route path="/ReactSkills03" element={<ReactSkills03 />} />
+          <Route path="/ReactSkills04" element={<ReactSkills04 />} />
         </Routes>
       </div>
     </div>
