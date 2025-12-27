@@ -31,6 +31,12 @@ const Home = () => {
                 >
                     4. Lista dinámica con filtro
                 </Link>
+                <Link
+                    to="/ReactSkills05"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    5. Calculadora básica
+                </Link>
             </div>
         </div>
     );
