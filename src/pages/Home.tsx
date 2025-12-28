@@ -37,6 +37,12 @@ const Home = () => {
                 >
                     5. Calculadora básica
                 </Link>
+                <Link
+                    to="/ReactSkills06"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    6. Temporizador
+                </Link>
             </div>
         </div>
     );
