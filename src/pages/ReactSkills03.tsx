@@ -1,7 +1,8 @@
-import { useEffect, useState, ChangeEvent, KeyboardEvent } from "react";
+import { useEffect, useState } from "react";
+import type { ChangeEvent, KeyboardEvent } from "react";
 import { Link } from "react-router-dom";
 
-export default function Ejercicio3(): JSX.Element {
+export default function Ejercicio3() {
     // Estado del input
     const [item, setItem] = useState<string>("");
 

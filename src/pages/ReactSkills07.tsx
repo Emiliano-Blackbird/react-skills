@@ -1,7 +1,8 @@
-import { useState, ChangeEvent } from "react";
+import { useState } from "react";
+import type { ChangeEvent } from "react";
 import { Link } from "react-router-dom";
 
-export default function Ejercicio7(): JSX.Element {
+export default function Ejercicio7() {
     // Estados tipados
     const [longitud, setLongitud] = useState<string>("");
     const [password, setPassword] = useState<string>("");

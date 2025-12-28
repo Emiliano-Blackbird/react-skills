@@ -1,7 +1,8 @@
-import { useState, ChangeEvent, Dispatch, SetStateAction } from "react";
+import { useState } from "react";
+import type { ChangeEvent, Dispatch, SetStateAction } from "react";
 import { Link } from "react-router-dom";
 
-export default function Ejercicio5(): JSX.Element {
+export default function Ejercicio5() {
     // Inputs como string (control total del input)
     const [num1, setNum1] = useState<string>("");
     const [num2, setNum2] = useState<string>("");

@@ -1,7 +1,8 @@
-import { useState, ChangeEvent } from "react";
+import { useState } from "react";
+import type { ChangeEvent } from "react";
 import { Link } from "react-router-dom";
 
-export default function Ejercicio4(): JSX.Element {
+export default function Ejercicio4() {
     // Lista original (constante, no estado)
     const listaOriginal: string[] = [
         "Ferrari",

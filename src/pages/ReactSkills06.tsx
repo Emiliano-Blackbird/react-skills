@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTimer } from "../hooks/useTimer";
 
-export default function Ejercicio6(): JSX.Element {
+export default function Ejercicio6() {
     const {
         time,
         isRunning,
