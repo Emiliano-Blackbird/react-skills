@@ -43,6 +43,12 @@ const Home = () => {
                 >
                     6. Temporizador
                 </Link>
+                <Link
+                    to="/ReactSkills07"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    7. Generador de contraseñas aleatorias
+                </Link>
             </div>
         </div>
     );
