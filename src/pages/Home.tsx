@@ -55,6 +55,12 @@ const Home = () => {
                 >
                     8. Contador de palabras y caracteres en tiempo real
                 </Link>
+                <Link
+                    to="/ReactSkills09"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    9. Lista de Tareas (LocalStorage)
+                </Link>
             </div>
         </div>
     );
