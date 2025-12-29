@@ -49,6 +49,12 @@ const Home = () => {
                 >
                     7. Generador de contraseñas aleatorias
                 </Link>
+                <Link
+                    to="/ReactSkills08"
+                    className="p-4 bg-white rounded shadow hover:bg-blue-50 transition"
+                >
+                    8. Contador de palabras y caracteres en tiempo real
+                </Link>
             </div>
         </div>
     );
