@@ -1,6 +1,15 @@
 import { Link } from 'react-router-dom';
 
+import { useState } from "react";
+import { Pagination } from "../components/Pagination";
+
 const Home = () => {
+    // estado página actual
+    const [currentPage, setCurrentPage] = useState(1);
+
+    // solo 1 página
+    const totalPages = 1;
+
     return (
         <div className="flex flex-col items-center gap-6 mt-10">
             <h1 className="text-3xl font-bold text-orange-800">React + Typescript Skills</h1>
@@ -62,7 +71,16 @@ const Home = () => {
                     9. Lista de Tareas (LocalStorage)
                 </Link>
             </div>
+
+            {/* PAGINACIÓN */}
+            <Pagination
+                    currentPage={currentPage}
+                    totalPages={totalPages}
+                    onPageChange={setCurrentPage}
+            />
         </div>
+
+        
     );
 };
 

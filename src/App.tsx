@@ -9,6 +9,7 @@ import ReactSkills06 from './pages/ReactSkills06'
 import ReactSkills07 from './pages/ReactSkills07'
 import ReactSkills08 from './pages/ReactSkills08'
 import ReactSkills09 from './pages/ReactSkills09'
+import { PaginationPage } from './pages/PaginationPage'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/ReactSkills07" element={<ReactSkills07 />} />
           <Route path="/ReactSkills08" element={<ReactSkills08 />} />
           <Route path="/ReactSkills09" element={<ReactSkills09 />} />
+          <Route path="/Pagination" element={<PaginationPage />} />
         </Routes>
       </div>
     </div>
